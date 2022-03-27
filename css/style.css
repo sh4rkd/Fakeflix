@@ -121,8 +121,35 @@ table {
     background: #000000;
 }
 
-.tv{
+.size-info{
     height: 85vh;
 }
+
+.tv-container-position{
+    width:48%;
+    height:100%;
+}
+
+.video-in-tv{
+    position: relative;
+    overflow: hidden;
+}
+
+.video-position{
+    max-width:73%;
+    max-height:54%;
+    position:absolute;
+    top:46%;
+    left:50%;
+    -webkit-transform:translate(-50%,-50%);
+}
+
+.image-position-for-video{
+    position:relative;
+    z-index:2
+}
+
+
+
 
 /*END MAIN*/
