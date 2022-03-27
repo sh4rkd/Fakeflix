@@ -47,7 +47,7 @@ table {
 .header {
     background: url(../images/index_background.jpg) no-repeat center;
     background-size: cover;
-    min-height: 100vh;
+    height: 100vh;
 }
 
 .header .navbar {
@@ -74,16 +74,17 @@ table {
     fill: red;
 }
 
+.h1{
+    font-size:3.125rem;
+    line-height:1.1;
+    margin-bottom:.5rem
+}
+
+.hero-title{
+    height: 70vh;
+}
 /* END HEADER*/
 
 /*MAIN*/
-    /*Hero*/
-    .hero{
-        margin: unset;
-        background: url("../images/index_background.jpg") no-repeat center/cover;
-        height: calc(115vh - 75px);
-        display: grid;
-    place-content: center;
-    }
-    /*END HERO*/
+
 /*END MAIN*/
