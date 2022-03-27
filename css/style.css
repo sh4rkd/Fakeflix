@@ -44,14 +44,46 @@ table {
 /* END RESET CSS */
 
 /*HEADER*/
+.header {
+    background: url(../images/index_background.jpg) no-repeat center;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+.header .navbar {
+    background-color: transparent !important;
+}
+
+.concord-img-gradient{
+    position:absolute;
+    background:rgba(0,0,0,.1);
+    background-image:-webkit-gradient(linear,left bottom,left top,color-stop(50%,rgba(0,0,0,0)),to(rgba(0,0,0,.7))),radial-gradient(50% 100%,rgba(0,0,0,0) 50%,rgba(0,0,0,.7) 10%);
+    background-image:-webkit-linear-gradient(bottom,rgba(0,0,0,0) 50%,rgba(0,0,0,.7) 100%),-webkit-radial-gradient(50% 100%,rgba(0,0,0,0) 50%,rgba(0,0,0,.7) 10%);
+    background-image:-moz- oldlinear-gradient(bottom,rgba(0,0,0,0) 50%,rgba(0,0,0,.7) 100%),-moz- oldradial-gradient(50% 100%,rgba(0,0,0,0) 50%,rgba(0,0,0,.7) 10%);
+    background-image:-o-linear-gradient(bottom,rgba(0,0,0,0) 50%,rgba(0,0,0,.7) 100%),-o-radial-gradient(50% 100%,rgba(0,0,0,0) 50%,rgba(0,0,0,.7) 10%);
+    background-image:linear-gradient(to top,rgba(0,0,0,0) 50%,rgba(0,0,0,.7) 100%),radial-gradient(50% 100%,rgba(0,0,0,0) 50%,rgba(0,0,0,.7) 200%);
+    top:0;
+    bottom:0;
+    right:0;
+    left:0
+}
+
 .svg-icon-netflix-logo{
     height:45px;
     width:167px;
     fill: red;
 }
+
 /* END HEADER*/
 
 /*MAIN*/
-
+    /*Hero*/
+    .hero{
+        margin: unset;
+        background: url("../images/index_background.jpg") no-repeat center/cover;
+        height: calc(115vh - 75px);
+        display: grid;
+    place-content: center;
+    }
+    /*END HERO*/
 /*END MAIN*/
-
