@@ -45,6 +45,10 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+.bg-netflix-dark{
+    background: #141414;
+}
 /* END RESET CSS */
 
 /*HEADER*/
@@ -135,7 +139,7 @@ table {
     letter-spacing:.1rem;
 }
 
-.bg-dark{
+.bg-netflix-dark{
     transition: all 1s ease;
 }
 /* END HEADER*/
