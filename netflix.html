@@ -9,13 +9,14 @@
     <title>Netflix</title>
 </head>
 <body>
-    <!-- <HEADER> -->
+    <!-- <HEADER> -->       
         <header>
-            <video class="bg-netflix" src="images/escape_room.mp4" autoplay loop muted poster="images/netflix_escape_image.png">
-            </video>
-            <div class="concord-img-gradient">
+            <div class="vh-100">
+                <video class="bg-netflix" src="images/escape_room.mp4" autoplay loop muted poster="images/netflix_escape_image.png"></video>
+            </div>             
+            <div class="concord-img-gradient">                
                 <!-- <NAV> -->
-                <nav class="navbar navbar-expand-lg navbar-dark">
+                <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
                     <div class="container-fluid">
                         <div>
                             <svg viewBox="0 0 111 30" class="navbar-brand svg-icon-netflix-logo m-4" focusable="false">
@@ -55,7 +56,7 @@
                             </a>                        
                             <a href="" class="mx-2">Niños</a>
                             <div class="dropdown">
-                                <a class="text-reset me-3 mx-3" href="#">
+                                <a class="text-reset mx-3" href="#">
                                     <span class="iconify" data-icon="bi:bell-fill" style="color: white;" data-width="25"></span>
                                 </a>
                             </div>
@@ -68,27 +69,75 @@
                     </div>
                 </nav>
                 <!-- </NAV> -->
-                <div class="d-flex justify-content-center align-items-center hero-title">
-                    <div class="flex-column text-white w-75 text-center">
-                        <div>
-                            <h1 class="title m-auto">Películas y series ilimitadas y mucho más.</h1>
-                            <h2 class="subtitle">Disfruta donde quieras. Cancela cuando quieras.</h2>
-                        </div>
-                        <div>
-                            <p class="purchase-title pt-3 pb-2">¿Quieres ver Netflix ya? Ingresa tu email para crear una cuenta o reiniciar tu membresía de Netflix.</p>                            
-                            <div class="input-group input-width m-auto">
-                                <input type="text" class="form-control" placeholder="Email" aria-label="Recipient's username" aria-describedby="basic-addon2">
-                                <div class="input-group-append ">
-                                    <button class="btn btn-danger input-size" role="link" onclick="window.location='login.html'">Comenzar <span class="iconify" data-icon="akar-icons:chevron-right"></span></button>
+                <div class="container pt-5">
+                    <div class="row pt-5">
+                            <div class="col-sm pt-5">                        
+                                <div class="d-flex flex-column">
+                                    <div class="text-white w-75">
+                                        <img class="py-2" src="images/title_escape_room.png" alt="">
+                                        <p class="py-2 text-sinop">Seis extraños usan su ingenio para sobrevivir a una serie de habitaciones mortales y misteriosas que albergan sus peores pesadillas. ¿Lo lograrán o morirán en el intento?</p>
+                                    </div>
+                                    <div class="d-flex justify-content-start align-items-start py-2">
+                                        <a href="" class="btn btn-light"><span class="iconify" data-icon="clarity:play-solid" data-width="30"></span> Reproducir</a>
+                                        <a href="" class="btn btn-dark mx-2"><span class="iconify" data-icon="ant-design:info-circle-outlined" style="color: white;" data-width="30"></span> Más información</a>
+                                    </div>
                                 </div>
                             </div>
-                        </div>  
-                    </div>                 
+                            <div class="col-sm">
+                            </div>
+                            <div class="col-sm">
+                        </div>
+                    </div>
                 </div>
             </div>            
         </header>        
         <!-- </HEADER> -->
-            <!-- </MAIN> -->
+        <!-- <MAIN> -->
+        <main>
+            <div class="bg-dark">
+                <div class="px-5 text-white py-4">
+                    <p>Mi lista</p>
+                    <div class="images-netflix">
+                        <img class="" src="images/mi_lista/mi_lista_1.jpg" alt="">
+                        <img class="" src="images/mi_lista/mi_lista_2.jpg" alt="">
+                        <img class="" src="images/mi_lista/mi_lista_3.webp" alt="">
+                        <img class="" src="images/mi_lista/mi_lista_1.jpg" alt="">
+                        <img class="" src="images/mi_lista/mi_lista_1.jpg" alt="">
+                    </div>
+                </div>
+                <div class="px-5 text-white py-4">
+                    <p>Mi lista</p>
+                    <div class="images-netflix">
+                        <img class="" src="images/mi_lista/mi_lista_1.jpg" alt="">
+                        <img class="" src="images/mi_lista/mi_lista_2.jpg" alt="">
+                        <img class="" src="images/mi_lista/mi_lista_3.webp" alt="">
+                        <img class="" src="images/mi_lista/mi_lista_1.jpg" alt="">
+                        <img class="" src="images/mi_lista/mi_lista_1.jpg" alt="">
+                    </div>
+                </div>
+                <div class="px-5 text-white py-4">
+                    <p>Mi lista</p>
+                    <div class="images-netflix">
+                        <img class="" src="images/mi_lista/mi_lista_1.jpg" alt="">
+                        <img class="" src="images/mi_lista/mi_lista_2.jpg" alt="">
+                        <img class="" src="images/mi_lista/mi_lista_3.webp" alt="">
+                        <img class="" src="images/mi_lista/mi_lista_1.jpg" alt="">
+                        <img class="" src="images/mi_lista/mi_lista_1.jpg" alt="">
+                    </div>
+                </div>
+                <div class="px-5 text-white py-4">
+                    <p>Mi lista</p>
+                    <div class="images-netflix">
+                        <img class="" src="images/mi_lista/mi_lista_1.jpg" alt="">
+                        <img class="" src="images/mi_lista/mi_lista_2.jpg" alt="">
+                        <img class="" src="images/mi_lista/mi_lista_3.webp" alt="">
+                        <img class="" src="images/mi_lista/mi_lista_1.jpg" alt="">
+                        <img class="" src="images/mi_lista/mi_lista_1.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </main>
+        <!-- </MAIN> -->
             <script src="https://code.iconify.design/2/2.2.0/iconify.min.js"></script>
             <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
             <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>

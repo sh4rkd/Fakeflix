@@ -129,6 +129,10 @@ table {
     transform: translateX(-50%) translateY(-50%);
     z-index: -1;
 }
+
+.text-sinop{
+    letter-spacing:.1rem;
+}
 /* END HEADER*/
 
 /*MAIN*/
@@ -187,5 +191,11 @@ table {
 
 .bg-login{
     background: #151515;
+}
+
+.images-netflix img{
+    width: 15rem;
+    margin-left: .1em;
+    border-radius: 3%;
 }
 /*END MAIN*/
