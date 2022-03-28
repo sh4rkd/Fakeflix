@@ -134,6 +134,10 @@ table {
 .text-sinop{
     letter-spacing:.1rem;
 }
+
+.bg-dark{
+    transition: all 1s ease;
+}
 /* END HEADER*/
 
 /*MAIN*/
