@@ -241,6 +241,14 @@ table {
 }
 
 
+.accordion .card-header:after {
+    content: "See less";
+    float: right; 
+}
+.accordion .card-header.collapsed:after {
+    /* symbol for "collapsed" panels */
+    content: "See more"; 
+}
 
 .card img {
     max-width: 15rem;
